@@ -106,7 +106,7 @@ class Cache implements CacheInterface
         }
         $return = [];
         foreach ($keys as $key => $value) {
-            $return[$key] = $this->get($key, $default);
+            $return[$key] = $this->get($value, $default);
         }
         return $return;
     }

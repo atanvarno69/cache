@@ -9,7 +9,7 @@
 
 ## Installation
 ```bash
-$ composer require atanvarno/cache:^0.1.0
+$ composer require atanvarno/cache:^0.1.1
 ```
 
 ## Basic Usage
